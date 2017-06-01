@@ -1,0 +1,20 @@
+I have encountered major issues in using Excel with RefProp.
+
+Say I input the following:
+
+=Entropy("R134a","Th","SI","368","402.51")
+it returns the following:
+1.19171415
+
+However, if I would be using RefProp, using the Substance\Specified state points module,
+ and inputting 368 on the Temp and 402.51 on the enthalpy, it returns the following entropy value:
+ 1.60000
+ which I believe is the correct one..
+ 
+ As a graduate student here in the Philippines, I have a major requirement using RefProp with links to other apps..
+ We cannot use Excel/VBA because of this problem, it gives the wrong values, and I have to use other app, like
+ C++/C#/MatLab
+ 
+ Coding is tedious, if ever this problem would have been fixed, it would be a lot easier using Excel with macros made in VBA
+ for calling the propper thermodynamic and transport values.
+ 
